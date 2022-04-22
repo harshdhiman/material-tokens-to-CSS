@@ -1,4 +1,4 @@
-# Material Token to CSS
+# Material Token to CSS (VS Code Extension)
 
 Converts Material You Color Tokens (DSP Json File) to CSS Variables with a Simple Command
 
