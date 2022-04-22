@@ -1,10 +1,24 @@
 {
   "name": "materialtokenstocss",
-  "displayName": "MaterialTokensToCSS",
-  "description": "Converts Material Tokens to CSS Variables",
+  "displayName": "Material Tokens to CSS",
+  "description": "Converts Material Color Tokens (DSP Token File) to CSS Variables",
   "version": "0.0.1",
+  "author": "R3's",
+  "publisher": "R3s",
   "engines": {
     "vscode": "^1.66.0"
+  },
+  "keywords": [
+    "material",
+    "you",
+    "color",
+    "css",
+    "dsp"
+  ],
+  "icon": "/images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshdhiman/material-tokens-to-CSS"
   },
   "categories": [
     "Other"

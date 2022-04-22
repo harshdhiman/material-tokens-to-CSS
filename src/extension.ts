@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
           const doc = editor.document;
           const text = doc.getText();
 
-          if (text.length <= 20 || !text.startsWith('{"dsp_spec_version"')) {
+          if (text.length <= 20 || !text.includes('"dsp_spec_version"')) {
             /// not a valid DSP File
             // show an error message with a button to learn more
             vscode.window
@@ -24,7 +24,11 @@ export function activate(context: vscode.ExtensionContext) {
               )
               .then((selection) => {
                 if (selection === "Learn More") {
-                  vscode.env.openExternal(vscode.Uri.parse(""));
+                  vscode.env.openExternal(
+                    vscode.Uri.parse(
+                      "https://github.com/harshdhiman/material-tokens-to-CSS#How-to-use"
+                    )
+                  );
                 }
               });
           } else {

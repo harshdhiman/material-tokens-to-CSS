@@ -1,70 +1,31 @@
-# materialtokenstocss README
+# Material Token to CSS
 
-This is the README for your extension "materialtokenstocss". After writing up a brief description, we recommend including the following sections.
+Converts Material You Color Tokens (DSP Json File) to CSS Variables with a Simple Command
 
-## Features
+![Howto](/images/howto.gif)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Learn More about [Material You Color Tokens](https://m3.material.io/styles/color/the-color-system/tokens) and generate one from [Material Theme Builder](https://material-foundation.github.io/material-theme-builder) or directly with [Figma](https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder)
 
-For example if there is an image subfolder under your extension project workspace:
+## How to use
 
-\!\[feature X\]\(images/feature-x.png\)
+- Create a CSS File
+- Copy all the content of Material You's DSP Color Token File (JSON File) into your CSS File
+- Simply Run the Command `Material Token to CSS` from VS Code Command Pallete (Ctrl + Shift + P)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## How to get Color Token File?
 
-## Requirements
+- Generate one using [Material Theme Builder](https://material-foundation.github.io/material-theme-builder)
+- Export the Colors as DSP Token File
+- Now follow [from here](/How-to-use) with the file named `tokens.json`
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Featuers
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Currently the extension just converts the Material You Colors with Color palletes
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release
 
 **Enjoy!**
