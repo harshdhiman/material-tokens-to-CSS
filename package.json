@@ -2,7 +2,7 @@
   "name": "materialtokenstocss",
   "displayName": "Material Tokens to CSS",
   "description": "Converts Material Color Tokens (DSP Token File) to CSS Variables",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "R3's",
   "publisher": "R3s",
   "engines": {
